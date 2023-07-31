@@ -4,7 +4,7 @@
 
 - Packet sniffer which can sniff packets to and from a paricular ip address and port.
 - Used Packet Capture(Pcap) Library to capture network packets.
-- Works on all Operating Systems.
+- Works on all Operating Systems (Mac, Linux, Windows).
 - Future Scope : Add more functionality and can be converted into a system command using alias system call, Can be used as offline network analysis Tool
 
 How to run :

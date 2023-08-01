@@ -85,7 +85,9 @@ Running servers :
 ```
 sudo ./ISS
 sudo ./t
-sudo ./s
-sudo ./c
+sudo ./s1
+sudo ./s2
+sudo ./c1
+sudo ./c2
 ```
 

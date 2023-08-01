@@ -65,4 +65,22 @@ Running client :
 
 ![35998788-63cb-4303-8e22-437419f5f069](https://github.com/Vijayadityaraj-source/Computer_Networks/assets/103420230/ae04fa4a-ee00-4fb1-b3be-246c6f7a31a4)
 
+* A service server "si" serves the client,the tracer process "T" observes the "si" and sends the service port number to the Ingenerate super server "Iss"
+* The "Iss" doesn't let the "si" accept the client directly. The "Iss" accepts the clients using the "si" port and sends the accepted clients to the corresponding "si"
+* Client "ci" also gets service port numbers from Tracer "T" and can get connected for service
+* Whenever "T" observes a new server, it informs all clients and "Iss" about the server
 
+Compile :
+```
+make
+```
+
+Running servers : 
+#### Order is important.
+
+```
+sudo ./ISS
+sudo ./t
+sudo ./s
+sudo ./c
+```

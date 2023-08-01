@@ -2,6 +2,10 @@
 
 #### Output Screenshots in the respective folders.
 
+## Man in the Middle Attack
+
+* Attacks the victim and router with continuous arp reply packets to eavesdrop on the messages exchanged 
+
 ## Libpcap
 
 * Packet sniffer which can sniff packets to and from a particular ip address and port.
@@ -84,3 +88,4 @@ sudo ./t
 sudo ./s
 sudo ./c
 ```
+
